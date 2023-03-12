@@ -1,0 +1,114 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:wght@400;700&display=swap');
+
+html, body {
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+}
+
+body {
+  background-color: #84acdc;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: 30px;
+  border-color: #1c7ca4; 
+}
+
+.display-4.mb-2 {
+  color: #094974;
+  font-weight: 700;
+}
+
+.aside {
+  height: 400px;
+}
+
+.main {
+  height: 400px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.task-title {
+  font-weight: 600;
+  padding-top: 5px;
+  color:#1c7ca4; 
+}
+
+.task-title--done {
+  text-decoration: line-through;
+  color:#84acdc;
+}
+
+.task-item__buttons {
+  display: flex;
+  column-gap: 5px;
+}
+
+.notify-holder {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.empty-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #d5e9ff;
+  color: #1c7ca4;
+  font-weight: 500;
+}
+
+.empty-list__title {
+  font-size: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.card-header, .card-body {
+  background-color: #d5e9ff;
+  color: #1c7ca4;
+  border-color: #1c7ca4;
+}
+
+.btn-action {
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    transition: opacity 0.2s ease-in;
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-action:hover {
+    background-color: #e0e5ea;
+    opacity: 1;
+}
+
+.btn-action img {
+  pointer-events: none;
+}
+
+.none {
+  display: none !important;
+}
+
+.float-right {
+  float: right;
+}
